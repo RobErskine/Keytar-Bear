@@ -1,0 +1,393 @@
+                                     /*//////////////////////////////////////
+//  imports
+//////////////////////////////////////*/
+/* line 5, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../../build/sass/neat/grid/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+                                     /*//////////////////////////////////////
+//  colors
+//////////////////////////////////////*/
+                                     /*//////////////////////////////////////
+//  fonts
+//////////////////////////////////////*/
+                                     /*//////////////////////////////////////
+//  extension on skeleton
+//////////////////////////////////////*/
+/* line 29, ../../build/sass/partials/_base.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 33, ../../build/sass/partials/_base.scss */
+.block {
+  *zoom: 1;
+}
+/* line 17, ../../build/sass/bourbon/addons/_clearfix.scss */
+.block:before, .block:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../../build/sass/bourbon/addons/_clearfix.scss */
+.block:after {
+  clear: both;
+}
+
+/* line 38, ../../build/sass/partials/_base.scss */
+.disable-hover {
+  pointer-events: none;
+}
+
+/* line 42, ../../build/sass/partials/_base.scss */
+b, strong {
+  font-weight: 600;
+}
+
+/* line 46, ../../build/sass/partials/_base.scss */
+i, em {
+  font-style: italic;
+}
+
+/* line 50, ../../build/sass/partials/_base.scss */
+input:focus, textarea:focus {
+  outline: none;
+}
+
+                                     /*//////////////////////////////////////
+//  mixins
+//////////////////////////////////////*/
+                                     /*//////////////////////////////////////
+//  silent classes
+//////////////////////////////////////*/
+/* line 93, ../../build/sass/partials/_base.scss */
+.block, .content {
+  max-width: 60rem;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 110, ../../build/sass/partials/_base.scss */
+body, html {
+  display: block;
+  height: 100%;
+}
+
+/* line 115, ../../build/sass/partials/_base.scss */
+body {
+  font-size: 62.5%;
+  position: relative;
+}
+
+/* line 3, ../../build/sass/screen.scss */
+body {
+  background-image: url("/img/keytarbear.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-x: hidden;
+  background-color: #808080;
+}
+
+/* line 12, ../../build/sass/screen.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 16, ../../build/sass/screen.scss */
+.video {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
+/* line 19, ../../build/sass/screen.scss */
+.video video {
+  position: absolute;
+  top: 0px;
+  right: -20%;
+  min-height: 122%;
+  min-width: 122%;
+}
+
+/* line 26, ../../build/sass/screen.scss */
+header.main-header {
+  background-color: rgba(45, 45, 45, 0.4);
+  padding: 1em;
+}
+/* line 29, ../../build/sass/screen.scss */
+header.main-header .block {
+  position: relative;
+}
+/* line 32, ../../build/sass/screen.scss */
+header.main-header img {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
+  width: 100%;
+}
+/* line 38, ../../build/sass/screen.scss */
+header.main-header ul {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  margin-top: .5em;
+}
+/* line 43, ../../build/sass/screen.scss */
+header.main-header ul li {
+  margin-bottom: .5em;
+}
+/* line 45, ../../build/sass/screen.scss */
+header.main-header ul li:last-child {
+  margin-bottom: 0;
+}
+/* line 48, ../../build/sass/screen.scss */
+header.main-header ul li a {
+  padding: .5em;
+  display: block;
+  color: #fff;
+  font-family: helvetica;
+  background-color: #0089dd;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+}
+/* line 55, ../../build/sass/screen.scss */
+header.main-header ul li a.facebook {
+  background-color: #2e4e8f;
+}
+
+@media all and (min-width: 768px) {
+  /* line 65, ../../build/sass/screen.scss */
+  header.main-header img {
+    float: left;
+  }
+  /* line 68, ../../build/sass/screen.scss */
+  header.main-header ul {
+    float: right;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  /* line 72, ../../build/sass/screen.scss */
+  header.main-header ul li {
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    display: block;
+    margin-left: 1em;
+  }
+  /* line 78, ../../build/sass/screen.scss */
+  header.main-header ul li a {
+    padding: 1em;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  /* line 81, ../../build/sass/screen.scss */
+  header.main-header ul li a:hover {
+    background-color: #004a77;
+  }
+}
+/* line 91, ../../build/sass/screen.scss */
+.content {
+  position: relative;
+  top: 30px;
+}
+/* line 94, ../../build/sass/screen.scss */
+.content a {
+  color: #0089dd;
+  font-style: italic;
+}
+/* line 98, ../../build/sass/screen.scss */
+.content .about, .content .news {
+  margin: 0 10px 10px;
+  background-color: #fff;
+}
+/* line 103, ../../build/sass/screen.scss */
+.content .news img {
+  width: 100%;
+}
+/* line 106, ../../build/sass/screen.scss */
+.content .news article {
+  display: block;
+  margin-bottom: .75em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+/* line 110, ../../build/sass/screen.scss */
+.content .news article:last-child {
+  border-bottom: none;
+}
+/* line 115, ../../build/sass/screen.scss */
+.content h1, .content h2 {
+  font-weight: 700;
+  font-family: helvetica;
+  text-transform: uppercase;
+}
+/* line 120, ../../build/sass/screen.scss */
+.content h1 {
+  font-size: 2em;
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+}
+/* line 126, ../../build/sass/screen.scss */
+.content h2 {
+  font-size: 1.8em;
+  padding: 0 15px;
+}
+/* line 130, ../../build/sass/screen.scss */
+.content p {
+  font-size: 1.6em;
+  line-height: 1.4;
+  font-family: georgia;
+  padding: 15px;
+}
+/* line 135, ../../build/sass/screen.scss */
+.content p:first-child {
+  padding-bottom: 0;
+}
+
+@media all and (min-width: 768px) {
+  /* line 142, ../../build/sass/screen.scss */
+  .content {
+    *zoom: 1;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 17, ../../build/sass/bourbon/addons/_clearfix.scss */
+  .content:before, .content:after {
+    content: " ";
+    display: table;
+  }
+  /* line 23, ../../build/sass/bourbon/addons/_clearfix.scss */
+  .content:after {
+    clear: both;
+  }
+  /* line 144, ../../build/sass/screen.scss */
+  .content .about, .content .news {
+    margin: 0;
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+    opacity: 0.7;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  /* line 33, ../../build/sass/neat/grid/_span-columns.scss */
+  .content .about:last-child, .content .news:last-child {
+    margin-right: 0;
+  }
+  /* line 149, ../../build/sass/screen.scss */
+  .content .about:hover, .content .news:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+  }
+}
+/* line 156, ../../build/sass/screen.scss */
+footer.main-footer {
+  width: 100%;
+  margin: 5em auto;
+  padding-top: 2em;
+  padding: 2em 15px 0;
+  color: #fff;
+  font-size: 1.6em;
+  text-align: center;
+  display: block;
+  font-family: helvetica;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+/* line 167, ../../build/sass/screen.scss */
+footer.main-footer p {
+  padding-bottom: .5em;
+  display: block;
+}
+/* line 170, ../../build/sass/screen.scss */
+footer.main-footer p a {
+  color: #0089dd;
+}
+
+@media all and (min-width: 768px) {
+  padding: 2em 0;
+}
